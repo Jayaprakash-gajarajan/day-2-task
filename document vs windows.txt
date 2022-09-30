@@ -1,0 +1,23 @@
+     
+
+Difference between document and window:
+
+                document                                                                       window
+
+    *It represents any HTML document or web page that is                    *It represents a browser window or frame that displays the contents 
+     loaded in the browser.                                                  of the webpage. 
+
+    *syntax:                                                                *syntax:
+      document.propertyname;                                                 window.propertyname; 
+
+    *All the tags, elements with attributes in HTML are part                *Global objects, functions, and variables of JavaScript are members
+     of the document.                                                        of the window object.
+ 
+    *Properties of document objects such as title, body, cookies,           *Properties of the window object cannot be accessed by the document object. 
+     etc can also be accessed by a window like this window.
+     document.title .
+     
+    *example:                                                               *example:
+
+    *document.title :  will return the title of the document                *window.innerHeight : will return the height of the content area of the browser
+                                                                              
